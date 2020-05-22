@@ -1,0 +1,52 @@
+header {
+    background: url('./assets/img/castelo.jpg');
+    background-size: cover;
+    background-position: top center;
+}
+
+.banner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    margin: 3rem;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    color: #333;
+    text-transform: uppercase;
+}
+
+.navbar-custom:nth-child(1) {
+    background-color: #ffc61c;
+}
+
+.navbar-custom:nth-child(3) {
+    background-color: #F1F1F1;
+}
+
+.jumbotron {
+    align-items: center;
+    background-color: #ffc61c;
+    height: auto;
+    position: relative;
+}
+
+.copyright {
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.logo-footer {
+    width: 325px;
+    height: 103px;
+}
+
+.ativo {
+    background-color: #626262;
+    color: #FFFFFF;
+}
