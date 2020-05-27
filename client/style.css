@@ -19,7 +19,7 @@ header {
     text-shadow: 0px 0px 4px black;
 }
 
-.menu{
+/* .menu{
     display: flex;
     text-align: center;
     padding: 1em 0 1em;
@@ -34,14 +34,14 @@ header {
 
 .menu li{
     display: inline-block;
-}
+} */
 
-.menu a{
+.navbar-light .navbar-nav .nav-link{
     text-decoration: none;
     padding: 1em;
     color: #000000;
 }
-.menu a:hover{
+.navbar-light .navbar-nav .nav-link:hover{
     background: rgba(0, 0, 0, 0.8);
     color: white;
 }
