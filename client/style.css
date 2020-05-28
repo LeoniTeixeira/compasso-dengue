@@ -1,6 +1,10 @@
 .identidade-visual {
     background-color: #ffc61c;
 }
+.logo img {
+    max-height: 2em;
+    max-width: 40vw;
+}
 
 header {
     background: url('./assets/img/banner.jpg');
@@ -9,8 +13,8 @@ header {
 }
 
 .banner {
-    margin-top: 4em;
-    height: 6em;
+    margin-top: 8vw;
+    height: 5em;
     max-width: 100%;
     color: #fff;
     text-align: center;
@@ -20,25 +24,21 @@ header {
 }
 
 .menu{
-    display: flex;
     text-align: center;
     padding: 1em 0 1em;
     background-color: whitesmoke;
 }
 
 .menu ul{
+    display: flex;
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.menu li{
-    display: inline-block;
-}
-
 .menu a{
     text-decoration: none;
-    padding: 1em;
+    padding: 1em 0.5em;
     color: #000000;
 }
 .menu a:hover{
