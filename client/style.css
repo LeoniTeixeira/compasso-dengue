@@ -1,11 +1,15 @@
+/*GERAL*/
 .identidade-visual {
     background-color: #ffc61c;
 }
+
+
 .logo img {
     max-height: 2em;
     max-width: 40vw;
 }
 
+/*INDEX*/
 header {
     background: url('./assets/img/banner.jpg');
     background-size: cover;
@@ -59,17 +63,36 @@ header {
 .jumbotron {
     align-items: center;
     height: auto;
-    position: relative;
+    padding: 1em;
 }
 
 .copyright {
-    font-size: 20px;
-    line-height: 23px;
     text-align: center;
     color: #FFFFFF;
 }
 
 .logo-footer {
-    width: 325px;
-    height: 103px;
+    width: 20em;
 }
+
+/*LOGIN*/
+/*mobile*/
+.container-xs{
+    height: 75vh;
+    background-color: #cbcbcb;
+    padding: 5em 1em;
+}
+.container-xs h1{
+    margin: auto;
+    text-align: center;
+}
+
+@media (min-width: 992px) { 
+    /*desktop*/
+    .container-xs{
+        background-color: #cbcbcb;
+        max-width: 40em;
+        margin: 4em auto;
+        padding: 3em 6em;
+    }
+ }
